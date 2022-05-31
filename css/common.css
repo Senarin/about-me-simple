@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+body{
+    font-family: "Pretendard", "Noto Sans KR", "Nanum Gothic", sans-serif;
+    background-color: #FAFAFA;
+    font-size: 0.875rem;
+    line-height: 1.73;
+}
+
+input{font-family: inherit;}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+span{
+    color: #282828;
+    text-decoration: none;
+}
+
+a:link{
+    color: #BB0011;
+    text-decoration: none;
+}
+a:active{
+    color: #CCCCCC;
+    text-decoration: none;
+}
+a:visited{
+    color: #777777;
+    text-decoration: none;
+}
+a:hover{
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+blockquote{font-family: "Courier New"}
+
+abbr{cursor: help;}
+
+table,th,tr,td{border-collapse: collapse;}
+
+ul, ol{
+    margin-left: -1.25em;
+    margin-right: 1em;
+    font-size: 13px;
+    line-height: 1.35;
+}
+
+.nonmarker{list-style-type: none;}
+
+.notyetavail{color: #DEDEDE;}
+
+.fonts_small{font-size: 72%;}
+
+.icon_links{margin: 0.5em;}
+
+#copyright,#recent_updated,#support{
+    text-align: center;
+    font-size: 0.875em;
+}
+
+#headtext{
+    text-align: center;
+    background-color: #F5F8FA;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1.4em;
+}
+
+label{font-size: 80%;}
+
+.uinotes{font-size: 9px;}
+
+#a_main{text-align: center;}
+
+#campiagn{
+    width: 20em;
+    max-width: 20em;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    margin: auto;
+}
+
+#c1{
+    display: inline-block;
+    animation: marquee 16s linear infinite;
+}
+
+@keyframes marquee{
+    from {transform: translateX(100%);}
+    to {transform: translateX(-100%);}
+}
