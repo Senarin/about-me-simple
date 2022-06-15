@@ -11,7 +11,7 @@ body{
 
 input{font-family: inherit;}
 
-.material-icons {
+.material-icons{
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
@@ -34,7 +34,12 @@ input{font-family: inherit;}
   
     /* Support for IE. */
     font-feature-settings: 'liga';
-  }
+}
+
+.material-icons-plain{
+    font-family: 'Material Icons';
+    font-size: 1em;
+}
 
 span{
     color: #282828;
