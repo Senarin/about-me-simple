@@ -72,14 +72,6 @@ abbr{cursor: help;}
 
 table,th,tr,td{border-collapse: collapse;}
 
-#headtext{
-    text-align: center;
-    background-color: #F5F8FA;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border-radius: 1.4em;
-}
-
 #content-body{
     margin-top: 4em;
     display: inline-block;
@@ -93,6 +85,7 @@ table,th,tr,td{border-collapse: collapse;}
     margin-left: auto;
     margin-right: auto;
     background-color: #FAFAFA;
+    max-width: 100%;
 }
 
 #document-body h1{font-size: 2rem;}
