@@ -10,60 +10,58 @@
  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
- <script type="text/javascript" src="./js/common.js"></script>
- <script>
-  $(document).ready(function(){
-    document.getElementById("closepopup").addEventListener("click",function(){closePopupSection("looking-blog");});
-  });
- </script>
 </head>
 <body>
- <div id="looking-blog">
-  <div class="close-button"><button id="closepopup" style="cursor: pointer;">닫기</button></div>
-  <p style="position: absolute; width: 100%; height: auto;">혹시 블로그를 찾아오셨나요? <a href="https://blog.naruka.me/">이 링크</a>를 클릭하세요</p>
- </div>
- <script>isPopupClosed("looking-blog");</script>
- <div id="container-body" style="text-align: center;">
-  <div id="profile-pic"><a href="https://twitter.com/StarryRose_1026"><img style="width: 144px; height: auto; border-radius: 50%;" src="./imgs/profilepic.jpg" alt="프로필 사진 (Profile Pic)" title="프로필 사진 (Profile Pic)" /></a></div>
-  <h2>나루카 (Naruka)</h2>
-  <div id="screen-alias">Alias: <b>호시노 나루카 (星乃成花, ほしの なるか, Naruka Hoshino)</b><!-- / 아야세 마리나 (綾瀬まりな, あやせまりな, Marina Ayase) --> / 유키나 (ゆきな, Yukina) / 꽃집아이돌 (花屋アイドル)</div>
-  <div id="personal-identity">&#x2642; <a href="https://en.pronouns.page/@senarin">Male</a> (<a href="https://pronoun.is/they">they/them</a> or <a href="https://pronoun.is/he">he/him</a>), &#x1F382; 1992/06/29, <i class="fi fi-kr"></i> 대한민국 거주 (Lives in South Korea)</div>
- 
-  <h3>각종 링크 (Links)</h3>
-  <h4>컨텐츠 업데이트 (Contents Feeds)</h4>
-  <div id="update-feeds">
-   <b><a href="https://blog.naruka.me/">블로그 (Blog)</a></b> (거의 안 씀)<br />
-   <b><a href="https://senarin.kr/">개인 웹사이트 (Personal Website)</a></b><br />
-   <a href="https://hoshino-naruka.postype.com/">포스타입 (Postype)</a> (자작 세계관 설정 업데이트용)<br />
-   <a href="https://velog.io/@aobamisaki">벨로그 (Velog.io)</a> (코딩 관련 업데이트용/거의 안 씀)
-  </div>
+ <section id="content-body">
+  <div id="document-body">
+   <article id="container-body">
+    <div id="profile-pic">
+      <a href="https://twitter.com/StarryRose_1026"><img id="pp" src="./imgs/profilepic.jpg" alt="프로필 사진 (Profile Pic)" title="프로필 사진 (Profile Pic)" /></a>
+      <h1>나루카 (Naruka)</h1>
+      <div id="screen-alias">Alias: <b>호시노 나루카 (星乃成花, ほしの なるか, Naruka Hoshino)</b><!-- / 아야세 마리나 (綾瀬まりな, あやせまりな, Marina Ayase) --> / 유키나 (ゆきな, Yukina) / 꽃집아이돌 (花屋アイドル)</div>
+      <div id="personal-identity">&#x2642; <a href="https://en.pronouns.page/@senarin">Male</a> (<a href="https://pronoun.is/they">they/them</a> or <a href="https://pronoun.is/he">he/him</a>), &#x1F382; 1992/06/29, <i class="fi fi-kr"></i> 대한민국 거주 (Lives in South Korea)</div>
+    </div>
+  
+    <h2>각종 링크 (Links)</h2>
+    <h3>컨텐츠 업데이트 (Contents Feeds)</h3>
+    <div id="update-feeds">
+     <ul>
+      <li><b><a href="https://blog.naruka.me/">블로그 (Blog)</a></b> (거의 안 씀)</li>
+      <li><b><a href="https://senarin.kr/">개인 웹사이트 (Personal Website)</a></b></li>
+      <li><a href="https://hoshino-naruka.postype.com/">포스타입 (Postype)</a> (자작 세계관 설정 업데이트용)</li>
+      <li><a href="https://velog.io/@aobamisaki">벨로그 (Velog.io)</a> (코딩 관련 업데이트용/거의 안 씀)</li>
+     </ul>
+    </div>
 
-  <h4>소셜 및 기타 계정 (Social Profiles)</h4>
-  <div id="social-profiles">
-   <a href="https://twitter.com/StarryRose_1026">Twitter</a> / <a href="https://instagram.com/naruka.overture">Instagram</a> / <a href="https://twingyeo.kr/@HoshiyamaNaruka">Mastodon #1</a> / <a href="https://planet.moe/@sayonara_andromeda">Mastodon #2</a><br />
-   <a href="https://github.com/Senarin">GitHub</a> / <a href="https://open.spotify.com/user/7wz9dtfwicreohox3gvbpjl55">Spotify</a> / <a href="https://steamcommunity.com/id/MinatoYukina1026/">Steam</a> / <a href="https://www.youtube.com/channel/UCM3XXb-5UlrfF8BPyx1BsvA">YouTube</a> / <a href="https://www.twitch.tv/minatoyukina1026">Twitch</a> / <a href="https://www.reddit.com/user/senarin837">Reddit</a></a><br />
-   카카오톡 &amp; LINE: minshara1013 (<a href="https://open.kakao.com/me/NabiYuka">카카오톡 오픈 프로필</a>)<br />
-   Discord: <a href="https://discordapp.com/users/945355470309318706">Naruka#6096</a><br />
-   Telegram : <a href="https://t.me/senarin">@senarin</a>
-  </div>
+    <h3>소셜 및 기타 계정 (Social Profiles)</h3>
+    <div id="social-profiles">
+     <ul>
+      <li><a href="https://twitter.com/StarryRose_1026">Twitter</a> / <a href="https://instagram.com/naruka.overture">Instagram</a> / Mastodon (<a href="https://twingyeo.kr/@HoshiyamaNaruka">#1</a> / <a href="https://planet.moe/@sayonara_andromeda">#2</a>)</li>
+      <li><a href="https://github.com/Senarin">GitHub</a> / <a href="https://open.spotify.com/user/7wz9dtfwicreohox3gvbpjl55">Spotify</a> / <a href="https://steamcommunity.com/id/MinatoYukina1026/">Steam</a></li>
+      <li><a href="https://www.youtube.com/channel/UCM3XXb-5UlrfF8BPyx1BsvA">YouTube</a> / <a href="https://www.twitch.tv/minatoyukina1026">Twitch</a> / <a href="https://www.reddit.com/user/senarin837">Reddit</a></a></li>
+      <li>카카오톡 &amp; LINE: minshara1013<br />(<a href="https://open.kakao.com/me/NabiYuka">카카오톡 오픈 프로필</a>)</li>
+      <li>Discord: <a href="https://discordapp.com/users/945355470309318706">Naruka#6096</a></li>
+      <li>Telegram : <a href="https://t.me/senarin">@senarin</a></li>
+     </ul>
+    </div>
 
-  <h4>연락처 (Contacts)</h4>
-  <div id="contacts">
-   Mail: <a href="mailto:themunyang21@naver.com">1차</a> / <a href="mailto:aobamisaki@kakao.com">2차</a><br />
-   Phone: <b>[별도 문의 필요]</b> (문자만 가능. 목적 외 무단 이용 금지)
-  </div>
+    <h3>연락처 (Contacts)</h3>
+    <div id="contacts">
+     <ul>
+      <li>Mail: <a href="mailto:themunyang21@naver.com">1차</a> / <a href="mailto:aobamisaki@kakao.com">2차</a></li>
+      <li>Phone: <b>[별도 문의 필요]</b> (문자만 가능. 목적 외 무단 이용 금지)</li>
+     </ul>
+    </div>
 
-  <h4>디지털 서명 (Digital Signature)</h4>
-  <div id="digital-signature">
-   &#x1F511; 공개 키 (Public Key): <a href="https://keybase.io/senarin">Keybase</a>
-   <div id="fp">
-    &#x1F4AE; 지문 (Fingerprint): <code id="fingerprint">A357 054C 14AA 5B60 21A6 526D <span id="fingerprint-b64" style="color: #FFFFFF; background-color: #6677CC;">4E44 373A 4D0B 7191</span></code>
-   </div>
+    <h3>디지털 서명 (Digital Signature)</h3>
+    <div id="digital-signature">
+     <ul>
+      <li>&#x1F511; 공개 키 (Public Key): <a href="https://keybase.io/senarin">Keybase</a></li>
+      <li>&#x1F4AE; 지문 (Fingerprint): <code id="fingerprint">A357 054C 14AA 5B60 21A6 526D <span id="fingerprint-b64" style="color: #FFFFFF; background-color: #6677CC;">4E44 373A 4D0B 7191</span></code></li>
+     </ul>
+    </div>
+   </article>
   </div>
-  <hr style="width: 100%;" />
-  <p id="copyright">Copyright &copy; 2022 Naruka. All rights reserved.</p>
- </div>
-
+ </section>
 </body>
 </html>
