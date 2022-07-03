@@ -12,3 +12,7 @@ function closePopupSection(elem){
 function isPopupClosed(elem){
  if(window.sessionStorage && sessionStorage.getItem("popup-closed")){document.getElementById(`${elem}`).style.display = "none";}
 }
+
+function changePic(elem,path){
+ elem.setAttribute("src",path);
+}
