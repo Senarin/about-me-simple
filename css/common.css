@@ -72,6 +72,8 @@ abbr{cursor: help;}
 
 table,th,tr,td{border-collapse: collapse;}
 
+code{font-family: ui-monospace,SFMono-Regular,"SF Mono","Menlo","Consolas","Liberation Mono",monospace !important;}
+
 #content-body{
     margin-top: 4em;
     display: inline-block;
