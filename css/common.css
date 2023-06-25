@@ -1,7 +1,7 @@
 *{font-family: "IBM Plex Sans KR", "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", "Malgun Gothic", sans-serif;}
 
 body{
-    background-color: #3344AA;
+    background-color: #33AAEE;
     margin: 0;
     padding: 0;
     font-size: 0.875rem;
@@ -74,7 +74,7 @@ code,code > *{font-family: ui-monospace,SFMono-Regular,"SF Mono","Menlo","Consol
     margin-top: 4em;
     display: inline-block;
     position: absolute;
-    background-color: #3344AA;
+    background-color: #33AAEE;
     width: 100%;
 }
 
