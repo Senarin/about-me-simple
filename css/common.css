@@ -138,7 +138,7 @@ li{margin-left: -1em;}
     text-align: center;
     font-weight: bold;
     transition: all 0.25s ease;
-    border-radius: 0.75em 0.75em 0 0;
+    border-radius: 0.75em;
 }
 
 input[name="tab-select"]{display: none;}
