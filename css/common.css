@@ -161,4 +161,4 @@ input[name="tab-select"]{display: none;}
     color: #FFFFFF;
 }
 
-.content-tabs input:checked + .tab-select:before{content: "\1F31F\0020";}
+.content-tabs input:checked + .tab-select:before{content: "\1F31F";}
