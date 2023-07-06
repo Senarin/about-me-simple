@@ -130,7 +130,7 @@ li{margin-left: -1em;}
     border-bottom: 3px solid var(--tab-active-color);
     background-color: var(--tab-color);
     line-height: 2em;
-    font-size: 0.875em;
+    font-size: 1em;
     text-align: center;
     color: #FFFFFF;
     display: block;
