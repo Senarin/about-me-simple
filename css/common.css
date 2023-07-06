@@ -158,3 +158,5 @@ input[name="tab-select"]{display: none;}
     background-color: var(--tab-active-color);
     color: #FFFFFF;
 }
+
+.content-tabs input:checked + .tab-select:before{content: "\1F31F\0020";}
