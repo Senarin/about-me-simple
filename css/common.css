@@ -127,7 +127,7 @@ li{margin-left: -1em;}
     cursor: pointer;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
-    border-bottom: 1px solid var(--tab-active-color);
+    border-bottom: 3px solid var(--tab-active-color);
     background-color: var(--tab-color);
     line-height: 2em;
     font-size: 0.875em;
