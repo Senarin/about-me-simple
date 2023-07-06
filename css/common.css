@@ -120,13 +120,13 @@ ul:last-child{margin-bottom: 0.5em;}
 li{margin-left: -1em;}
 
 .tab-select{
-    width: calc(100%/4);
-    height: 64px;
+    width: 50%;
+    height: 2em;
     cursor: pointer;
     border-bottom: 2px solid #CCCCCC;
     background-color: #F0F0F0;
-    line-height: 64px;
-    font-size: 1em;
+    line-height: 2em;
+    font-size: 0.875em;
     text-align: center;
     color: #000000;
     display: block;
