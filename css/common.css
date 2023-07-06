@@ -141,6 +141,8 @@ li{margin-left: -1em;}
     border-radius: 0.75em;
 }
 
+.tab-select:hover{opacity: 0.75;}
+
 input[name="tab-select"]{display: none;}
 
 .tab-content{
