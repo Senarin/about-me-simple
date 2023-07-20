@@ -157,6 +157,10 @@ input[name="tab-select"]{display: none;}
 #about-social:checked ~ #about-social-content,
 #about-contacts:checked ~ #about-contacts-content{display: block;}
 
+
+#about-platform-pc:checked ~ #about-platform-pc-content,
+#about-platform-mobile:checked ~ #about-platform-mobile-content{display: block;}
+
 .content-tabs input:checked + .tab-select{
     background-color: var(--tab-active-color);
     color: #FFFFFF;
