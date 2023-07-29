@@ -162,7 +162,7 @@ input[name="tab-select"]{display: none;}
 #about-platform-mobile:checked ~ #about-platform-mobile-content{display: block;}
 
 
-#about-identities:checked ~ #about-identities-content,
+#about-intro:checked ~ #about-intro-content,
 #about-attentions-interested:checked ~ #about-attentions-interested-content,
 #about-likes:checked ~ #about-likes-content,
 #about-other-profiles:checked ~ #about-other-profiles-content{display: block;}
