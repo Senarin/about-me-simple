@@ -161,6 +161,13 @@ input[name="tab-select"]{display: none;}
 #about-platform-pc:checked ~ #about-platform-pc-content,
 #about-platform-mobile:checked ~ #about-platform-mobile-content{display: block;}
 
+
+#about-identities:checked ~ #about-identities-content,
+#about-attentions-interested:checked ~ #about-attentions-interested-content,
+#about-likes:checked ~ #about-likes-content,
+#about-other-profiles:checked ~ #about-other-profiles-content{display: block;}
+
+
 .content-tabs input:checked + .tab-select{
     background-color: var(--tab-active-color);
     color: #FFFFFF;
