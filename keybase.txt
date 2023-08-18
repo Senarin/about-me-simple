@@ -1,25 +1,25 @@
 ==================================================================
-https://keybase.io/senarin
+https://keybase.io/randomstar
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://rina.pe.kr
-  * I am senarin (https://keybase.io/senarin) on keybase.
-  * I have a public key with fingerprint 1457 6DE3 135A F8E4 CE5F  A435 181E 2638 7CE3 9E80
+  * I am randomstar (https://keybase.io/randomstar) on keybase.
+  * I have a public key with fingerprint 5E7A BA72 FE76 E4AA D193  1D52 22F5 3117 D547 F698
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "0101a728e1ce2f446fc3434902b7b0ee319b717b5dfce0c60113f26b6c591cb603740a",
-      "fingerprint": "14576de3135af8e4ce5fa435181e26387ce39e80",
+      "eldest_kid": "0120a76400bd272c7f37268a74a189279e154088f6edad7daf4f55584ea2fe5c22690a",
+      "fingerprint": "5e7aba72fe76e4aad1931d5222f53117d547f698",
       "host": "keybase.io",
-      "key_id": "181e26387ce39e80",
-      "kid": "0101aa1ab0b477b06399b6c27e95b3bf937f7d24c4cad8fb74912d58fc355c9c51bf0a",
-      "uid": "f5cf256b0c261b4d0303ac71b5105819",
-      "username": "senarin"
+      "key_id": "22f53117d547f698",
+      "kid": "0101428011d2b7a3dc3679d20b6b4f22fdb887d1d6b6b34b5177f50dda308343e3550a",
+      "uid": "dff1070fa315359ef92d458c4cdc0f19",
+      "username": "randomstar"
     },
     "service": {
       "hostname": "rina.pe.kr",
@@ -28,10 +28,10 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1668595415,
+  "ctime": 1692364386,
   "expire_in": 157680000,
-  "prev": "f1ba49b33dbc0354b31b2e1d723d5627493ec0366f18f770442586f29bcdf120",
-  "seqno": 370,
+  "prev": "28eecdd6e9de172cd3757c0ca9fa77b5266a0cca45c7cf510d51baa88f8869a9",
+  "seqno": 16,
   "tag": "signature"
 }
 
@@ -41,35 +41,35 @@ which yields the signature:
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-yMNmAnicbVJ/TFVVAAZB6T1lkU1BDctrySKCe+655/7AUUpIMWe4UGbw4HXPvec+
-Lsh7j3cvoCEunK6aM4ImwqDil7JAJxQzwSYiVgwXzU3QjBcBf0gCoaZbghvdy2zr
-j84/59f3fef7vp0roUEB9sCI9ZuEAxNffBB4tbeqMEA2Lt4oobBH2U/Fl1B5ZHEi
-exWiG848TaHiKRrQQOIZgQCZMCrLcqoMWciKNIN5TBMCgYh5wGOkqDKhZY4GAKoM
-hzkZiUDGHA15lpaoGErV3C7i8/o0t2HKAhbxnGKyIZJUgbAyQarEQgQEQBgOCrxM
-oEgE2iTmeHSLYZrDkk5iNY95Zm6ci/b+B/8f3xKQMI1Z3nTKQVE0TTE8ERGGWBUh
-r/IKw8qsLCmCinlWBIyCBDMeQrIoI4DVRd+Fi3IqklUGcZiWGQ5gVqEhDSWZBxgB
-GglAtIA68bmlfGKideKWzKBUaYy59BVpMrF6tYI8AZiXUqyXxOb5TKLX5zE8smev
-eZ5jGF493uIZ+70WsJhg5xMJJ9bcilmiySgiPl3zuKl4YCJlQ7M0AccJSEQsQDEU
-2efVfMSpWQizZ4E2h/UOKbKiACyxIoZQwTINEYshwAwBCs9ABXGMWQQk5gXHqUBQ
-eZ5mWQYJnMqIWFZUwFgV66TA7aHiIW+qGpLLSqy53JJR6CNU6eVeR3BAoD1g2dIl
-1vcKsNvC/v10CxVPL7gyrz313LCiRm1RZ5qdhnFybWpN8Y9Vh4TaigtrpkJDH04l
-77744O54EImezElBtLrh7PGbkfVJd7eOje9qSEsHDS2B97Lfzk6PHPzY2V5cW//s
-Sx2DO6afeZh9NebSi5zD0Y2zljR37bnE3CgLOedJiAs3qm+/P2AcS9/XGTmz7HjX
-eil65Iw+4T+2vKmw/M9bbeH+YNz3u/vnwp8qQ3aNncjOGBAPxA0knuljK/K3vplX
-117ttN2JzW37obdgi3hSXumYiPD3LFz/dDijtC+hNCXuyLb+7i4jq9hf09rfqNaP
-bEjtba15OaOlcduQtEKNW1ES+6BuTWKyF1Ztvpa/dTLqe17vOLza1+3K8EZ+2do/
-fmjo1aHZ4PZ7383zF2z2ltHTd7bP1VSfnhrRKgtWDk3CzfjyN/OlNP1edljWZ509
-mRWJe1YfLR5u/rWr6vm2dfr0Y+/YdW5u+61zDli5+76elmSbSzk8mpRQ8slrR5re
-2VjZ9dELf02Eld98ZWn/RpKhhHXUrho9deV8V05ZSMlC8s6DSnpe/eOyQXdR0m87
-ple12zeRqNf/jqurP2X/8OCjVAiRAQY/bzrvCWI6/DOZKfNfN4S2fJvE7yxqT1ze
-2fpu07rGGSE34fbZN9Y6bdPh0YmzyeVv2Ry/RPyR75r7agjSXHXriUdHZ3uaQ9Oy
-/Ln3/wGtYr5d
-=hkZx
+yMNwAnicbVJtUFRVGF6+tN2BgEmESWnyquQH0v0699y7Jjpjo0ORgYJTfMx27j3n
+LpeFu+vughBRSqE5OFjABKLAbNHEZKUxoTnVECvajFSIhUGmFihSGjoJoo0x3cvE
+v86fM+eZ53ne533f0xsVZrGFUFNM/ODmu00hfT1NJRZ8RZcrKNmNyyl7BeUisxcp
+wsTnd7g0TNkpmmFpBAWepmXMQlaBKgdZQUSQR4wosVAiDOBpUVQFghGGGKm8CgAQ
+eYJYlQCFZQWJRlQypWq6k3g9Xk33G7aAQCQjaFCgQHiEMCNxDAYsy6qAYxiIAQ9V
+QRINYYHbZyqMcDLykRTNbWDGwzEb73/4c7lphmdFmmEwK0PEYYUToIRZWhZkXjVk
+WBZFiBksGADHy4CBUAU0xoijRY7nCAfAbO6SWTusqgwNaRVxDOCARFSJxTwQFV7B
+Cq0ykkn0Ea+OionB9iIdu4t9fuSlKpMpAy/VFGKO1uxljqPpKMVDUlxeQ+vxuv1u
+xV1k4AV+v8dnN3X+co9J3Elkx38WDlnTsTFHQ1FKvD7NrVN2xmAqfs30ZASJ5QSe
+E4VkipR5NC9xaCYDQEGkjWPWIaXm1ERCFIwFImHCGEvFHARQoRUkqQhCGbCCgGhF
+QTxQoKIChsaAkREytiyKgoTMbn1kh+42Sxo5kdPw9GlOHflLvISqDPbkhVtCbJZ5
+EaHmB7PYrDFz325XUoylakrJ2X426YAMxKpbAS33q3NNhW90Z4++t3gqbOio8Nlz
+L9zyZv52IbZodfrbda7r8wM5Xx6Wcte2NQQrl3X/dHM6dcraU9tS/e3IyMhkReHV
+3pFTA73bxn5Y8+mdY3L2/dBJ/3BydGKUO/Ymva/6/KKV0xPVk+s25MbZHjq0IL3D
+uVwsi3n5IghyNY+1RAZAT/aZbxwPEi3XlPm143f/vJ03/dEzg5Kta3UjyVr/ZP8m
+a+/GtI2bgg8+XDu28lx9XfiS5nes13L09Px3E4xuJqtuPNF+r+XjR5d1Xc8OnP46
+q/5Ez+KO16/+s6qyfM/vWzqClvpFelzjRF0uU9Y5UJskRSZcPJh/JvxQ9Y8FNc2d
+Z0+3Z2yPiP8Cxm4/8cru5rZVcXu7b21b8JZlMfh5ZpcrkJiYsdd+hO9b88cH61bZ
+938XS+zrI3IXXhZa23cOFAafatsg/1oT1b5wX4JW/Pfu1pjoEj7/xuj7D7+0sCVn
+fOlqMSKrLGzQtnX0/v7d5zucfc1t8PLM1uXHml+7c6ooKunonldL/NaOkz3qkf6m
+1KOfXxpqtU0xDX/NW3G86t7mw1sm0nyh7PiKCXZopqEzsnY4fvz7PVnPXrqNlqRZ
+jj/yy/P1jU8fGM38xBPSSvStL+YFroxF7wi6YtoOPu5ccKdKLj2XeuHQm5Hu/sFK
+qz/0ZEbmzs67XezwUNi/Yl2/mQ==
+=94s+
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/senarin
+View my publicly-auditable identity here: https://keybase.io/randomstar
 
 ==================================================================
