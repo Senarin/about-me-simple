@@ -116,6 +116,11 @@ code,code > *{font-family: ui-monospace,SFMono-Regular,"SF Mono","Menlo","Consol
     text-align: center;
 }
 
+#domain-for-profile{
+    font-size: 0.875em;
+    text-align: center;
+}
+
 #return-link{text-align: center;}
 
 ul:last-child{margin-bottom: 0.25em;}
