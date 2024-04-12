@@ -17,7 +17,7 @@
  <script src="./js/common.js"></script>
  <script src="https://kit.fontawesome.com/ea96b8b098.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="triggerTabHash();" onhashchange="triggerTabHash();">
  <section id="content-body">
   <div id="document-body">
    <article id="container-body">
@@ -27,14 +27,14 @@
     </div>
 
     <div class="content-tabs">
-     <input id="about-overall" type="radio" name="tab-select" checked />
-     <label class="tab-select" for="about-overall">소개 (About)</label>
-     <input id="about-feeds" type="radio" name="tab-select" />
-     <label class="tab-select" for="about-feeds">컨텐츠 (Feeds)</label>
-     <input id="about-social" type="radio" name="tab-select" />
-     <label class="tab-select" for="about-social">소셜 계정 (Social)</label>
-     <input id="about-contacts" type="radio" name="tab-select" />
-     <label class="tab-select" for="about-contacts">연락 (Contacts)</label>
+     <input id="about-overall" data-tab-name="overall" type="radio" name="tab-select" checked />
+     <label class="tab-select" for="about-overall" onclick="changeTabHash('overall');">소개 (About)</label>
+     <input id="about-feeds" data-tab-name="feeds" type="radio" name="tab-select" />
+     <label class="tab-select" for="about-feeds" onclick="changeTabHash('feeds');">컨텐츠 (Feeds)</label>
+     <input id="about-social" data-tab-name="social" type="radio" name="tab-select" />
+     <label class="tab-select" for="about-social" onclick="changeTabHash('social');">소셜 계정 (Social)</label>
+     <input id="about-contacts" data-tab-name="contacts" type="radio" name="tab-select" />
+     <label class="tab-select" for="about-contacts" onclick="changeTabHash('contacts');">연락 (Contacts)</label>
 
      <div class="tab-content" id="about-overall-content">
       <h3>소개 (About)</h3>
