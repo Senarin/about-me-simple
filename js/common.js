@@ -23,6 +23,6 @@ function changeTabHash(h){
 
 function triggerTabHash(){
  var h = window.location.hash.replace("#","");
- document.querySelector(`input[data-tab-name="${h}"]`).click();
+ document.querySelector(`input[data-tab-name="${h}"]`).checked = true;
  document.addEventListener("hashchange",() => {document.querySelector(`input[data-tab-name="${h}"]`).click();},false);
 }
