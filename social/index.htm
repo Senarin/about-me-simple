@@ -17,7 +17,7 @@
  <script src="../js/common.js"></script>
  <script src="https://kit.fontawesome.com/ea96b8b098.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="triggerTabHash();">
  <section id="content-body">
   <div id="document-body">
    <article id="container-body">
@@ -27,12 +27,12 @@
     </div>
 
     <div class="content-tabs">
-      <input id="about-intro" type="radio" name="tab-select" checked />
-      <label class="tab-select" for="about-intro">소개 및 주의사항</label>
-      <input id="about-likes" type="radio" name="tab-select" />
-      <label class="tab-select" for="about-likes">관심사 및 최애 목록</label>
-      <input id="about-other-profiles" type="radio" name="tab-select" />
-      <label class="tab-select" for="about-other-profiles">게임 및 기타</label>
+      <input id="about-intro" data-tab-name="intro" type="radio" name="tab-select" checked />
+      <label class="tab-select" for="about-intro" onclick="changeTabHash('intro');">소개 및 주의사항</label>
+      <input id="about-likes" data-tab-name="likes" type="radio" name="tab-select" />
+      <label class="tab-select" for="about-likes" onclick="changeTabHash('likes');">관심사 및 최애 목록</label>
+      <input id="about-other-profiles" data-tab-name="other-profiles" type="radio" name="tab-select" />
+      <label class="tab-select" for="about-other-profiles" onclick="changeTabHash('other-profiles');">게임 및 기타</label>
 
      <div class="tab-content" id="about-intro-content">
       <h3>간단 소개</h3>

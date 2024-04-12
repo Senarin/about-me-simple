@@ -16,3 +16,13 @@ function isPopupClosed(elem){
 function changePic(elem,path){
  elem.setAttribute("src",path);
 }
+
+function changeTabHash(h){
+ document.querySelector(`input[data-tab-name="${h}"]`).addEventListener("click",() => {window.location.hash = `#${h}`;});
+}
+
+function triggerTabHash(){
+ var h = window.location.hash.replace("#","");
+ document.querySelector(`input[data-tab-name="${h}"]`).click();
+ document.addEventListener("hashchange",() => {document.querySelector(`input[data-tab-name="${h}"]`).click();},false);
+}
