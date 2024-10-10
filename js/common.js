@@ -26,3 +26,9 @@ function triggerTabHash(){
  document.querySelector(`input[data-tab-name="${h}"]`).checked = true;
  document.addEventListener("hashchange",() => {document.querySelector(`input[data-tab-name="${h}"]`).click();},false);
 }
+
+function toggleHideSect(oid){
+ var o = document.getElementById(oid);
+ if(o.style.display == "none"){o.style.display = "inline-block";}
+ else{o.style.display = "none";}
+}
