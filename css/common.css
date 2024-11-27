@@ -5,6 +5,7 @@
     --doc-color: #FAFAFA;
     --tab-color: #33AAFF;
     --tab-active-color: #0077DD;
+    --strike-color: #999999;
 }
 
 
@@ -119,6 +120,12 @@ code,code > *{font-family: ui-monospace,SFMono-Regular,"SF Mono","Menlo","Consol
 #domain-for-profile{
     font-size: 0.875em;
     text-align: center;
+}
+
+.unused{
+    text-decoration: line-through;
+    color: var(--strike-color);
+    text-decoration-color: var(--strike-color);
 }
 
 #return-link{text-align: center;}
