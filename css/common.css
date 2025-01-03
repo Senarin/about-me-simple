@@ -188,5 +188,5 @@ input[name="tab-select"]{display: none;}
 .content-tabs input:checked + .tab-select:before{content: "\1F31F";}
 
 [class^="fa-"]{
-    color: #FA006E !important;
+    color: #881188 !important;
 }
