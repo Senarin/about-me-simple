@@ -94,6 +94,7 @@ code,code > *{font-family: ui-monospace,SFMono-Regular,"SF Mono","Menlo","Consol
     background-color: var(--doc-color);
     max-width: 100%;
     box-shadow: 0 0 12px rgba(0,0,0,0.25);
+    border-radius: 2.4em;
 }
 
 #document-body h1{font-size: 2rem;}
