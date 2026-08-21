@@ -2,7 +2,7 @@
 
 :root{
     --bg-color: #357FF3;
-    --doc-color: #FAFAFA;
+    --doc-color: rgba(250,250,250,0.6);
     --tab-color: #33AAFF;
     --tab-active-color: #0077DD;
     --strike-color: #999999;
