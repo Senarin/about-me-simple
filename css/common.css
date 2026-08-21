@@ -17,6 +17,7 @@ body{
     position: relative;
     z-index: 1;
     background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url("https://contents-s3.chunseongcdn.net/manual-uploads/kiritani.png");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
